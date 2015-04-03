@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2014 The Android Open Source Project
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -18,12 +15,10 @@
 ===============================================================
                         PLEASE READ
 ===============================================================
-
 The Material themes must not be modified in order to pass CTS.
 Many related themes and styles depend on other values defined in this file.
 If you would like to provide custom themes and styles for your device,
 please see themes_device_defaults.xml.
-
 ===============================================================
                         PLEASE READ
 ===============================================================
@@ -34,7 +29,6 @@ please see themes_device_defaults.xml.
          <p>If you want to ensure that your
          app consistently uses the Material theme at all times, you must explicitly declare it in your
          manifest. For example, {@code &lt;application android:theme="@style/Theme.Material"&gt;}.
-
          <p>Styles used by the Material theme are named using the convention Type.Material.Etc
          (for example, {@code Widget.Material.Button} and {@code
          TextAppearance.Material.Widget.PopupMenu.Large}).
@@ -1236,9 +1230,9 @@ please see themes_device_defaults.xml.
     <!-- Default theme for Settings and activities launched from Settings. -->
     <style name="Theme.Material.Settings" parent="Theme.Material.Light.DarkActionBar">
         <item name="colorBackground">@color/white</item>
-        <item name="colorPrimary">@color/material_blue_grey_900</item>
-        <item name="colorPrimaryDark">@color/material_blue_grey_950</item>
-        <item name="colorAccent">@color/material_deep_teal_500</item>
+        <item name="colorPrimary">#ff2196F3</item>
+        <item name="colorPrimaryDark">#ff1976d2</item>
+        <item name="colorAccent">#ff03A9F4</item>
 
         <item name="dialogTheme">@style/Theme.Material.Settings.Dialog</item>
         <item name="alertDialogTheme">@style/Theme.Material.Settings.Dialog.Alert</item>
@@ -1249,40 +1243,40 @@ please see themes_device_defaults.xml.
 
     <style name="Theme.Material.Settings.BaseDialog" parent="Theme.Material.Light.BaseDialog">
         <item name="colorBackground">@color/white</item>
-        <item name="colorPrimary">@color/material_blue_grey_900</item>
-        <item name="colorPrimaryDark">@color/material_blue_grey_950</item>
-        <item name="colorAccent">@color/material_deep_teal_500</item>
+        <item name="colorPrimary">#ff2196F3</item>
+        <item name="colorPrimaryDark">#ff1976d2</item>
+        <item name="colorAccent">#ff03A9F4</item>
     </style>
 
     <style name="Theme.Material.Settings.Dialog" parent="Theme.Material.Settings.BaseDialog" />
 
     <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="Theme.Material.Light.Dialog.BaseAlert">
         <item name="colorBackground">@color/white</item>
-        <item name="colorPrimary">@color/material_blue_grey_900</item>
-        <item name="colorPrimaryDark">@color/material_blue_grey_950</item>
-        <item name="colorAccent">@color/material_deep_teal_500</item>
+        <item name="colorPrimary">#ff2196F3</item>
+        <item name="colorPrimaryDark">#ff1976d2</item>
+        <item name="colorAccent">#ff03A9F4</item>
     </style>
 
     <style name="Theme.Material.Settings.Dialog.Alert" parent="Theme.Material.Settings.Dialog.BaseAlert" />
 
     <style name="Theme.Material.Settings.Dialog.Presentation" parent="Theme.Material.Light.Dialog.Presentation">
         <item name="colorBackground">@color/white</item>
-        <item name="colorPrimary">@color/material_blue_grey_900</item>
-        <item name="colorPrimaryDark">@color/material_blue_grey_950</item>
-        <item name="colorAccent">@color/material_deep_teal_500</item>
+        <item name="colorPrimary">#ff2196F3</item>
+        <item name="colorPrimaryDark">#ff1976d2</item>
+        <item name="colorAccent">#ff03A9F4</item>
     </style>
 
     <style name="Theme.Material.Settings.SearchBar" parent="Theme.Material.Light.SearchBar">
         <item name="colorBackground">@color/white</item>
-        <item name="colorPrimary">@color/material_blue_grey_900</item>
-        <item name="colorPrimaryDark">@color/material_blue_grey_950</item>
-        <item name="colorAccent">@color/material_deep_teal_500</item>
+        <item name="colorPrimary">#ff2196F3</item>
+        <item name="colorPrimaryDark">#ff1976d2</item>
+        <item name="colorAccent">#ff03A9F4</item>
     </style>
 
     <style name="Theme.Material.Settings.CompactMenu" parent="Theme.Material.Light.CompactMenu">
         <item name="colorBackground">@color/white</item>
-        <item name="colorPrimary">@color/material_blue_grey_900</item>
-        <item name="colorPrimaryDark">@color/material_blue_grey_950</item>
-        <item name="colorAccent">@color/material_deep_teal_500</item>
+        <item name="colorPrimary">#ff2196F3</item>
+        <item name="colorPrimaryDark">#ff1976d2</item>
+        <item name="colorAccent">#ff03A9F4</item>
     </style>
 </resources>
